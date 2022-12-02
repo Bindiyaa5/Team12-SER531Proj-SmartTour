@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
 
 // MDB Modules
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
@@ -21,12 +22,28 @@ import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeComponent } from './home/home.component';
+import { AppRoutingModule } from './app-routing.module';
+import { AboutComponent } from './about/about.component';
+import { RouterModule, Routes } from '@angular/router'
+
+
+const routes: Routes = [
+  {path: '' , component: HomeComponent, pathMatch: 'full'},
+  { path: 'about', component: AboutComponent},
+
+];
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
+    FormsModule,
+    RouterModule.forRoot(routes),
     BrowserModule,
     BrowserAnimationsModule,
     MdbAccordionModule,
@@ -44,7 +61,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
+    AppRoutingModule,
+    
   ],
+  exports: [RouterModule],
   providers: [],
   bootstrap: [AppComponent]
 })
