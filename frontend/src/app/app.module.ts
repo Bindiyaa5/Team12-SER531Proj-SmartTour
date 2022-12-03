@@ -27,16 +27,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes } from '@angular/router'
 import { HttpClientModule } from '@angular/common/http';
+import { WikiComponent } from './wiki/wiki.component';
 import { ResultsComponent } from './results/results.component';
-// import { ResultsComponent } from './results/results.component';
 
 
 
 const routes: Routes = [
   {path: '' , component: AppComponent, pathMatch: 'full'},
   { path: 'about', component: AboutComponent},
-  {path: 'app', component:AppComponent}
-  // { path: 'results', component: ResultsComponent},
+  {path: 'app', component:AppComponent},
+  { path: 'results', component: ResultsComponent},
 
 ];
 
@@ -47,7 +47,8 @@ const routes: Routes = [
     HomeComponent,
     AboutComponent,
     ResultsComponent,
-    // ResultsComponent
+    WikiComponent,
+    ResultsComponent
   ],
   imports: [
     // ResultsComponent,
