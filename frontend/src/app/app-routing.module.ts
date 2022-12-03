@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ResultsComponent } from './results/results.component';
+import { WikiComponent } from './wiki/wiki.component';
 
 
 
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent},
   {path: 'app', component:AppComponent},
   { path: 'results', component: ResultsComponent},
+  {path: 'wiki' , component: WikiComponent}
 
 ];
 

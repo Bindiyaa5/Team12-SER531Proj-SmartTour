@@ -31,12 +31,12 @@ import { WikiComponent } from './wiki/wiki.component';
 import { ResultsComponent } from './results/results.component';
 
 
-
 const routes: Routes = [
   {path: '' , component: AppComponent, pathMatch: 'full'},
   { path: 'about', component: AboutComponent},
   {path: 'app', component:AppComponent},
   { path: 'results', component: ResultsComponent},
+  {path: 'wiki' , component: WikiComponent}
 
 ];
 
