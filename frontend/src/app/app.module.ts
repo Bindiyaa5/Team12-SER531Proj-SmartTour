@@ -27,13 +27,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes } from '@angular/router'
 import { HttpClientModule } from '@angular/common/http';
+import { ResultsComponent } from './results/results.component';
 // import { ResultsComponent } from './results/results.component';
 
 
 
 const routes: Routes = [
-  {path: '' , component: HomeComponent, pathMatch: 'full'},
+  {path: '' , component: AppComponent, pathMatch: 'full'},
   { path: 'about', component: AboutComponent},
+  {path: 'app', component:AppComponent}
   // { path: 'results', component: ResultsComponent},
 
 ];
@@ -44,6 +46,7 @@ const routes: Routes = [
     AppComponent,
     HomeComponent,
     AboutComponent,
+    ResultsComponent,
     // ResultsComponent
   ],
   imports: [
@@ -69,6 +72,7 @@ const routes: Routes = [
     MdbTooltipModule,
     MdbValidationModule,
     AppRoutingModule,
+    
     
   ],
   exports: [RouterModule],

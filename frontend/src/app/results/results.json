@@ -1,0 +1,95 @@
+{
+  "status": 200,
+  "data": [
+    {
+      "artistId": "1698",
+      "artistName": "George Fuller",
+      "nationalityId": "American",
+      "deathDate": "1884^^http://www.w3.org/2001/XMLSchema#date",
+      "birthDate": "1822^^http://www.w3.org/2001/XMLSchema#date",
+      "biography": "<P>Painter and tobacco farmer from Deerfield, Mass. He experimented with light in his landscape and portrait paintings, often imbuing them with a dreamy and mysterious atmosphere.</P>\n<P>Joan Stahl <I>American Artists in Photographic Portraits from the Peter A. Juley &amp; Son Collection</I> (Washington, D.C. and Mineola, New York: National Museum of American Art and Dover Publications, Inc., 1995)</P>",
+      "imageLink": "http://2.americanart.si.edu/images/JuleyBio/J0122207_1b.jpg"
+    },
+    {
+      "artistId": "2771",
+      "artistName": "George Cochran Lambdin",
+      "nationalityId": "American",
+      "deathDate": "1896^^http://www.w3.org/2001/XMLSchema#date",
+      "birthDate": "1830^^http://www.w3.org/2001/XMLSchema#date",
+      "biography": "<p>George Cochran Lambdin spent most of his life in <st1:City><st1:place>Philadelphia</st1:place></st1:City>. His father, James Reid Lambdin, taught him to paint, and George started his career as a portrait artist when he was in his early twenties. He soon began to focus on genre paintings of women and children, which he exhibited at the <st1:place><st1:PlaceName>Pennsylvania</st1:PlaceName> <st1:PlaceType>Academy</st1:PlaceType></st1:place> and the National Academy of Design. Later in his career, Lambdin created many floral paintings, probably inspired by his surroundings in <st1:City><st1:place>Philadelphia</st1:place></st1:City>, which was then known as the City of Flowers.</p>",
+      "imageLink": "http://2.americanart.si.edu/images/1978/1978.162.1_1a.jpg"
+    },
+    {
+      "artistId": "28414",
+      "artistName": "George T. Morgan",
+      "nationalityId": "American",
+      "deathDate": "1925^^http://www.w3.org/2001/XMLSchema#date",
+      "birthDate": "1845^^http://www.w3.org/2001/XMLSchema#date",
+      "biography": "<p>George T. Morgan studied art and engraving in his native England before moving to the United States to work at the U.S. Mint in Philadelphia. He served as the assistant to Chief Engraver <a href=\\\"http://americanart.si.edu/luce/artist.cfm?key=344&artistmedia=0&object=226500&subkey=114718\\\">Charles Barber</a>, and then took over the role in 1917 after Barber's death. Morgan created inaugural medals for four U.S. presidents and a number of American Indian peace medals.</p>",
+      "imageLink": null
+    },
+    {
+      "artistId": "240",
+      "artistName": "George Grey Barnard",
+      "nationalityId": "American",
+      "deathDate": "1938^^http://www.w3.org/2001/XMLSchema#date",
+      "birthDate": "1863^^http://www.w3.org/2001/XMLSchema#date",
+      "biography": "<p>Born in Bellefonte, Pennsylvania, George Grey Barnard began his art studies at the School of the Art Institute of Chicago in 1882. The following year he went to France, where he remainedfor more than ten years, studying at the &Eacute;cole des Beaux Arts from 1884 to 1887. Barnard's work was stronglyinfluenced by that of the French master Auguste Rodin. Using the nude to signify themes such as love and the relationship between nature and humankind, Barnard worked primarily in stone. In 1894 his sculpture won acclaim at the salon of the Societ&eacute; Nationale des Beaux-Arts in Paris. Soon afterward he returned to the United States and settled in New York City.</p><p>From 1900 to 1904 he taught at the Art Students League while continuing to exhibit his work internationally and to execute numerous commissions. In 1902 he was commissioned to create sculptures for the Pennsylvania State Capitol in Harrisburg&mdash;the largest such commission awarded to an American up to that time. The project, consisting of more than sixty figures representing the history of humankind, occupied Barnard for eight years and made him famous. Among his other commissions was a series of statues of Abraham Lincoln for several cities.</p><p>Barnard was also renowned for his collection of medieval art, which became the basis of the Cloisters at the Metropolitan Museum of Art. A second collection amassed by Barnard was soldby his estate to the Philadelphia Museum of Art. Barnard spent his last years working on an antiwar monument entitled <i>Rainbow Arch,</i> which was left uncompleted upon his death in New York City in 1938.</p><p><i>National Museum of American Art</i> (CD-ROM) (New York and Washington D.C.: MacMillan Digital in cooperation with the National Museum of American Art, 1996)</p>",
+      "imageLink": "http://2.americanart.si.edu/images/JuleyBio/J0001282_1b.jpg"
+    },
+    {
+      "artistId": "1967",
+      "artistName": "George Grosz",
+      "nationalityId": "American",
+      "deathDate": "1959^^http://www.w3.org/2001/XMLSchema#date",
+      "birthDate": "1893^^http://www.w3.org/2001/XMLSchema#date",
+      "biography": "<P>Expressionist painter and printmaker. During his career, Grosz was variously linked to three modern art movements—Dada and Die Neue Sachlichkeit in Germany and, after his immigration to the United Staes, American social realism of the 1930s and 1940s.</P>\n<P>Joan Stahl <I>American Artists in Photographic Portraits from the Peter A. Juley &amp; Son Collection</I> (Washington, D.C. and Mineola, New York: National Museum of American Art and Dover Publications, Inc., 1995)</P>",
+      "imageLink": "http://2.americanart.si.edu/images/JuleyBio/J0017989_1b.jpg"
+    },
+    {
+      "artistId": "1660",
+      "artistName": "George Freeman",
+      "nationalityId": "American",
+      "deathDate": "1868^^http://www.w3.org/2001/XMLSchema#date",
+      "birthDate": "1789^^http://www.w3.org/2001/XMLSchema#date",
+      "biography": "<p>George Freeman’s career started in England, where he lived between 1813 and 1840. There, he developed a successful business, counting Queen Victoria and Prince Albert among his sitters. After his return to America, Freeman worked in New York City and Philadelphia. He painted prominent American families, including the Biddles of Philadelphia, the Browns of Rhode Island, and President Tyler.</p>",
+      "imageLink": "http://2.americanart.si.edu/images/luce/artists/portrait_image_113804.jpg"
+    },
+    {
+      "artistId": "3015",
+      "artistName": "George Luks",
+      "nationalityId": "American",
+      "deathDate": "1933^^http://www.w3.org/2001/XMLSchema#date",
+      "birthDate": "1866^^http://www.w3.org/2001/XMLSchema#date",
+      "biography": "<p>Painter and graphic artist. As a newspaper artist in Philadelphia, Pa., he met Robert Henri, John Sloan, Everett Shinn, and William Glackens. He later applied masterful powerful brush strokes in his scenes of New York City's East Side. <i>Hester Street</i> (1905) is one of his best-known paintings.</p><p>Joan Stahl <i>American Artists in Photographic Portraits from the Peter A. Juley & Son Collection</i> (Washington, D.C. and Mineola, New York: National Museum of American Art and Dover Publications, Inc., 1995)</p>",
+      "imageLink": "http://2.americanart.si.edu/images/luce/artists/luks_george.jpg"
+    },
+    {
+      "artistId": "3524",
+      "artistName": "George W. Newcombe",
+      "nationalityId": "American",
+      "deathDate": "1845^^http://www.w3.org/2001/XMLSchema#date",
+      "birthDate": "1799^^http://www.w3.org/2001/XMLSchema#date",
+      "biography": "<p>Little is known about George Newcombe’s life and career. He was active in New York as early as 1829, and exhibited his miniatures there at the National Academy of Design, and in Philadelphia and Boston.</p>",
+      "imageLink": null
+    },
+    {
+      "artistId": "2031",
+      "artistName": "George Henry Hall",
+      "nationalityId": "American",
+      "deathDate": "1913^^http://www.w3.org/2001/XMLSchema#date",
+      "birthDate": "1825^^http://www.w3.org/2001/XMLSchema#date",
+      "biography": "<p>George Henry Hall was one of the most well-respected still-life painters in America during the mid-nineteenth century. His realistic images of fruits and flowers were influenced by the British Pre-Raphaelite movement. Hall's success enabled him to travel to Italy and Spain, where he was greatly inspired by scenes of everyday life and created romanticized scenes of Mediterranean culture. Hall returned to still-life painting later in his career and his work remained popular until his death.</p>",
+      "imageLink": null
+    },
+    {
+      "artistId": "430",
+      "artistName": "George Edwin Bissell",
+      "nationalityId": "American",
+      "deathDate": "1920^^http://www.w3.org/2001/XMLSchema#date",
+      "birthDate": "1839^^http://www.w3.org/2001/XMLSchema#date",
+      "biography": "<p>George Edwin Bissell was the son of a marble quarryman, and a descendant of Huguenots. He was educated in Connecticut with the hope of attending college, but his plans were interrupted by the onset of the Civil War, when he enlisted in a regiment of the Connecticut volunteers. After the war, Bissell went to work with his father and brother in New York, where he began modeling in clay. He decided to pursue sculpture in 1875 and traveled to Europe to study in France and at the American Academy in Rome. After he returned to the United States he won many commissions, especially of historical figures from the early years of America’s independence. The artist was one of the first members of the National Sculpture Society and a mentor to many young sculptors, who referred to him as “Père Bissell.”</p>",
+      "imageLink": "http://2.americanart.si.edu/images/luce/artists/portrait_image_113393.jpg"
+    }
+  ]
+}

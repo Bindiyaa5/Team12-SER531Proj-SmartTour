@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ontology } from './ontologies.interface';
+import { User } from './user';
+import { EnrollmentService } from './enrollment.service';
 
 @Component({
   selector: 'app-root',
@@ -10,32 +12,24 @@ export class AppComponent implements OnInit{
   title = 'Smart Tour of Smithsonian American Art Museum';
   myImage:string = "assets/images/pic1.jpg";
 
-  public ontologies:Array<ontology> = [{id:1, name:'Artist'}, {id:2, name:'Artwork'}, {id:3, name:'Artist and Artwork'}];
+  // public ontologies:Array<ontology> = [{id:1, name:'Artist'}, {id:2, name:'Artwork'}, {id:3, name:'Artist and Artwork'}];
 
-  public ontId: number =1;
-  constructor(){
+  // public ontId: number =1;
+  // constructor(){
 
-  }
+  // }
+  
 
   ngOnInit(){
       
   }
-  displayVal = '';
+  // displayVal = '';
 
-  // data = [
-  //   { id: 1, name: "Angular" },
-  //   { id: 2, name: "React" },
-  //   { id: 3, name: "Vue" },
-  //   { id: 4, name: "Bootstrap" },
-  //   { id: 5, name: "Foundation" },
-  // ]
-
-  // searchText = '';
-  getValue(val:string)
-  {
-    console.warn(val)
-    this.displayVal = val
-  }
+//   getValue(val:string)
+//   {
+//     console.warn(val)
+//     this.displayVal = val
+//   }
 }
 
 

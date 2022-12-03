@@ -1,4 +1,39 @@
- <!-- <div class="main">
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #998574">
+    <div class="container-fluid">
+      <h4 style="color: white;">{{ title }}</h4>
+      <button
+        class="navbar-toggler"
+        type="button"
+        (click)="inlineNav.toggle()"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarText"
+        mdbCollapse
+        #inlineNav="mdbCollapse"
+      >
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li  class="nav-item">
+            <a  style="color: white;" class="nav-link active" aria-current="page" routerLink="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a  style="color: white;" class="nav-link" routerLink="about">About</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+  <div class="main">
   
     <div class="image">.</div>
 
@@ -23,28 +58,26 @@
  </div>
 </div> 
 
-<router-outlet></router-outlet>  -->
 
+<!-- <div class="card-columns" *ngFor="let item of queryResults | keyvalue"> -->
 
-<div class="card-columns">
-
-    <div class="card px-0"  >
+    <!-- <div class="card px-0">
       <img class="card-img-top" src="pic3.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title that wraps to a new line</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">{{item.value[0].artistName}}</h5>
+        <p class="card-text">{{item.value[0].biography}}</p>
         <a href="#" class="btn btn-primary">More details</a>
       </div>
-    </div>
-    <div class="card px-0">
+    </div> -->
+    <!-- <div class="card px-0">
         <img class="card-img-top" src="pic3.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title that wraps to a new line</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           <a href="#" class="btn btn-primary">More details</a>
         </div>
-      </div>
-      <div class="card px-0">
+      </div> -->
+      <!-- <div class="card px-0">
         <img class="card-img-top" src="pic3.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title that wraps to a new line</h5>
@@ -61,7 +94,8 @@
         </div>
       </div>
     
-  </div>
+  </div> -->
+  <router-outlet></router-outlet>
 
 
 
